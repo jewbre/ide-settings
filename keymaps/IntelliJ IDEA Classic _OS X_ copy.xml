@@ -1,0 +1,63 @@
+<keymap version="1" name="IntelliJ IDEA Classic (OS X) copy" parent="Mac OS X">
+  <action id="ActivateDatabaseToolWindow">
+    <keyboard-shortcut first-keystroke="meta 0" />
+  </action>
+  <action id="ActivateGulpToolWindow">
+    <keyboard-shortcut first-keystroke="shift meta g" />
+  </action>
+  <action id="Annotate">
+    <keyboard-shortcut first-keystroke="shift ctrl a" />
+  </action>
+  <action id="CheckinFiles">
+    <keyboard-shortcut first-keystroke="shift meta p" />
+  </action>
+  <action id="CloseAllEditorsButActive">
+    <keyboard-shortcut first-keystroke="shift meta alt y" />
+  </action>
+  <action id="CloseContent">
+    <keyboard-shortcut first-keystroke="shift meta y" />
+  </action>
+  <action id="CollapseAll">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="CollapseRegion">
+    <keyboard-shortcut first-keystroke="meta slash" />
+  </action>
+  <action id="CommentByLineComment">
+    <keyboard-shortcut first-keystroke="meta divide" />
+    <keyboard-shortcut first-keystroke="meta minus" />
+  </action>
+  <action id="Images.Editor.ActualSize">
+    <keyboard-shortcut first-keystroke="meta divide" />
+  </action>
+  <action id="Images.Editor.ZoomOut">
+    <keyboard-shortcut first-keystroke="meta subtract" />
+  </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="RecentProjectListGroup">
+    <keyboard-shortcut first-keystroke="shift meta o" />
+  </action>
+  <action id="SwitchApply">
+    <keyboard-shortcut first-keystroke="ctrl alt enter" />
+  </action>
+  <action id="SwitchDown">
+    <keyboard-shortcut first-keystroke="ctrl alt down" />
+  </action>
+  <action id="SwitchLeft">
+    <keyboard-shortcut first-keystroke="ctrl alt left" />
+  </action>
+  <action id="SwitchRight">
+    <keyboard-shortcut first-keystroke="ctrl alt right" />
+  </action>
+  <action id="SwitchUp">
+    <keyboard-shortcut first-keystroke="ctrl alt up" />
+  </action>
+  <action id="WebServicesPlugin.CreateRESTClient">
+    <keyboard-shortcut first-keystroke="shift meta r" />
+  </action>
+  <action id="context.load">
+    <keyboard-shortcut first-keystroke="shift meta alt s" />
+  </action>
+</keymap>

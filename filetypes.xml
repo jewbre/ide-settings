@@ -1,0 +1,24 @@
+<application>
+  <component name="FileTypeManager" version="17">
+    <ignoreFiles list="*.hprof;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs;vssver.scc;vssver2.scc;" />
+    <extensionMap>
+      <mapping pattern="winners" type="PHP" />
+      <mapping pattern="yii" type="PHP" />
+      <mapping pattern="yii-local-vilim" type="PHP" />
+      <mapping pattern="pre-commit" type="PHP" />
+      <mapping pattern="data2" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="index" type="PLAIN_TEXT" />
+      <mapping pattern="BaseController" type="PLAIN_TEXT" />
+      <mapping pattern="just somethig" type="PLAIN_TEXT" />
+      <mapping pattern=".htacces" type="PLAIN_TEXT" />
+      <mapping ext="postman_collection" type="PLAIN_TEXT" />
+      <mapping ext="vcf" type="PLAIN_TEXT" />
+      <mapping ext="mmdb" type="PLAIN_TEXT" />
+      <mapping ext="pem" type="PLAIN_TEXT" />
+      <mapping ext="apib" type="PLAIN_TEXT" />
+      <mapping ext="ino" type="PLAIN_TEXT" />
+      <mapping ext="tsc" type="TypeScript JSX" />
+    </extensionMap>
+  </component>
+</application>

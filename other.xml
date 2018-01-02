@@ -1,0 +1,52 @@
+<application>
+  <component name="AppInspectionProfilesVisibleTreeState">
+    <entry key="Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Blade files</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="BuiltInServerOptions" builtInServerAvailableExternally="true" allowUnsignedRequests="true" />
+  <component name="CvsApplicationLevelConfiguration">
+    <option name="PATH_TO_PASSWORD_FILE" value="$userdir/.cvspass" />
+  </component>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="/usr/local/Cellar/node/8.5.0/bin/node">
+      <version-cache version="8.5.0" last-modified="1505392652000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/bin/node">
+      <version-cache version="9.2.1" last-modified="1514491299000" />
+      <npm-package value="/usr/local/lib/node_modules/npm" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/6.8.1/bin/node">
+      <version-cache version="6.8.1" last-modified="1476483561000" />
+    </local-interpreter>
+    <local-interpreter path="/usr/local/Cellar/node/5.1.1/bin/node">
+      <version-cache version="5.1.1" last-modified="1449204084000" />
+    </local-interpreter>
+  </component>
+  <component name="TeamCityHistory">
+    <option name="HISTORY" value="http://bugcatcher.deghq.com:8111&amp;^%$#@vilim.stubican@degordian.com@#$%^&amp;http://54.174.205.36:8111&amp;^%$#@vilim.stubican" />
+  </component>
+  <component name="VcsApplicationSettings">
+    <option name="PATCH_STORAGE_LOCATION" />
+  </component>
+  <component name="com.intellij.ide.fileTemplates.impl.FileTemplateManagerImpl">
+    <recent_templates>
+      <option name="RECENT_TEMPLATES">
+        <value>
+          <list size="0" />
+        </value>
+      </option>
+    </recent_templates>
+  </component>
+</application>

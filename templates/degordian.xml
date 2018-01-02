@@ -1,0 +1,92 @@
+<templateSet group="degordian">
+  <template name="scoped" value="(function($CONTEXT$){&#10;    &#10;    function $NAME$($PARAMS$) {&#10;        $END$ &#10;    }&#10;    &#10;    $CONTEXT$.$NAME$ = $NAME$;&#10;})($NAMESPACE$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="class" value="(function($CONTEXT$){&#10;    &#10;    function $NAME$($PARAMS$) {&#10;        $END$   &#10;    }&#10;    &#10;    Object.defineProperties($NAME$.prototype, {&#10;        // TODO: add public prototype methods&#10;    });&#10;    &#10;    $CONTEXT$.$NAME$ = $NAME$;&#10;})($NAMESPACE$);" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CONTEXT" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="fileNameWithoutExtension()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAMESPACE" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cmethod" value="$NAME$ : {&#10;    value : function($PARAMS$) {&#10;        $END$&#10;    },&#10;    enumerable : false&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="imethod" value="$NAME$ : {&#10;    value : function($PARAMS$) {&#10;        throw new Exception('You must implement method $NAME$.');&#10;    },&#10;    enumerable : false&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="serviceWorker" value="/*&#10; * Path to the service-workers.js file&#10; */&#10;importScripts('$WORKER_DEFINITION$');&#10;&#10;var baseUrl = &quot;$BASE_URL$&quot;;&#10;var context = self;&#10;var version = &quot;$VERSION$&quot;;&#10;var cacheKey = &quot;cache&quot; + version;&#10;&#10;var worker = new com.degordian.common.ServiceWorker(self);&#10;&#10;&#10;// Worker definitions&#10;&#10;$END$&#10;&#10;&#10;// Initialize worker&#10;worker.init();" description="Creates service worker required code" toReformat="false" toShortenFQNames="true">
+    <variable name="WORKER_DEFINITION" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="BASE_URL" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="VERSION" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="rworker" value="worker.registerWorker(&#10;    new com.degordian.common.serviceWorkers.$WORKER_NAME$($PARAMS$)&#10;);" description="Register worker" toReformat="false" toShortenFQNames="true">
+    <variable name="WORKER_NAME" expression="completeSmart()" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="mainsworker" value="var worker = new com.degordian.common.helpers.ServiceWorker('$PATH$');&#10;worker.register();" description="Initializes client side service worker" toReformat="false" toShortenFQNames="true">
+    <variable name="PATH" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="method" value="Object.defineProperty(&#10;    $CLASS$.prototype,&#10;    &quot;$NAME$&quot;,&#10;    {&#10;        value : function($PARAMS$) {&#10;            $END$&#10;        },&#10;        enumerable : false&#10;   });" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASS" expression="classNameComplete()" defaultValue="" alwaysStopAt="true" />
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="PARAMS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="strtrans" value="&lt;?= __('$SELECTION$', 'purex'); ?&gt;" description="String translate for wpml" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="identifier" value="Identifier: $copiedText$" description="" toReformat="false" toShortenFQNames="true">
+    <variable name="copiedText" expression="clipboard()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="npr" value="new Promise((resolve, reject) =&gt; {&#10;    $END$&#10;});" description="New promise" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
+  <template name="pstrtrans" value="&lt;?= PVT::t('$SELECTION$'); ?&gt;" description="String translate for pvt" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="bu" value="&lt;?= bu('$SELECTION$'); ?&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
