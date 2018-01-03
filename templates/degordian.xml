@@ -60,7 +60,7 @@
       <option name="JAVA_SCRIPT" value="true" />
     </context>
   </template>
-  <template name="strtrans" value="&lt;?= __('$SELECTION$', 'purex'); ?&gt;" description="String translate for wpml" toReformat="false" toShortenFQNames="true">
+  <template name="strtrans" value="&lt;?= __('$SELECTION$', 'stoh'); ?&gt;" description="String translate for wpml" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="HTML" value="true" />
     </context>
