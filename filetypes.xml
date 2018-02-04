@@ -6,11 +6,12 @@
       <mapping pattern="yii" type="PHP" />
       <mapping pattern="yii-local-vilim" type="PHP" />
       <mapping pattern="pre-commit" type="PHP" />
+      <mapping pattern="data2" type="PLAIN_TEXT" />
+      <mapping pattern="_prompt" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
-      <mapping pattern="just somethig" type="PLAIN_TEXT" />
       <mapping pattern="BaseController" type="PLAIN_TEXT" />
-      <mapping pattern="data2" type="PLAIN_TEXT" />
+      <mapping pattern="just somethig" type="PLAIN_TEXT" />
       <mapping pattern=".htacces" type="PLAIN_TEXT" />
       <mapping ext="postman_collection" type="PLAIN_TEXT" />
       <mapping ext="vcf" type="PLAIN_TEXT" />
