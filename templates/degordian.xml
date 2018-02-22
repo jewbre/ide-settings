@@ -89,7 +89,7 @@
       <option name="PHP" value="true" />
     </context>
   </template>
-  <template name="htmlencode" value="HTMLHelper.encode($SELECTION$)" toReformat="false" toShortenFQNames="true">
+  <template name="htmlencode" value="HTMLHelper.encode($SELECTION$)" description="" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
