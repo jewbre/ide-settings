@@ -1,10 +1,11 @@
-<code_scheme name="Yii2" version="173">
+<code_scheme name="DefinitelyTyped" version="173">
   <PHPCodeStyleSettings>
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
     <option name="KEEP_RPAREN_AND_LBRACE_ON_ONE_LINE" value="true" />
   </PHPCodeStyleSettings>
   <TypeScriptCodeStyleSettings>
+    <option name="SPACES_WITHIN_IMPORTS" value="true" />
     <option name="IMPORT_SORT_MODULE_NAME" value="true" />
     <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="FALSE" />
   </TypeScriptCodeStyleSettings>
