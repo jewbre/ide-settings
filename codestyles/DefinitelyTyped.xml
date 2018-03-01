@@ -27,7 +27,6 @@
   </codeStyleSettings>
   <codeStyleSettings language="TypeScript">
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
-    <option name="SPACE_BEFORE_METHOD_LBRACE" value="false" />
     <option name="WRAP_ON_TYPING" value="0" />
     <arrangement>
       <groups />
