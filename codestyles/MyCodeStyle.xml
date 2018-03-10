@@ -1,5 +1,8 @@
 <code_scheme name="MyCodeStyle" version="173">
   <option name="LINE_SEPARATOR" value="&#13;&#10;" />
+  <JSCodeStyleSettings>
+    <option name="IMPORT_PREFER_ABSOLUTE_PATH" value="FALSE" />
+  </JSCodeStyleSettings>
   <PHPCodeStyleSettings>
     <option name="LOWER_CASE_BOOLEAN_CONST" value="true" />
     <option name="LOWER_CASE_NULL_CONST" value="true" />
