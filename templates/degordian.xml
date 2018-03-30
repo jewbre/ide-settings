@@ -122,4 +122,10 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="tmethod" value="@test()&#10;private &quot;$NAME$&quot;() {&#10;    $END$&#10;}" description="TypeScript test method" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="TypeScript" value="true" />
+    </context>
+  </template>
 </templateSet>
