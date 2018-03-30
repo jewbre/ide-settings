@@ -27,6 +27,9 @@
     <keyboard-shortcut first-keystroke="meta divide" />
     <keyboard-shortcut first-keystroke="meta minus" />
   </action>
+  <action id="Git.Commit.And.Push.Executor">
+    <keyboard-shortcut first-keystroke="alt p" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
