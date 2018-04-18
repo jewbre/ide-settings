@@ -462,8 +462,8 @@
         </phpinfo>
       </interpreter>
       <interpreter name="PHP">
-        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php71/7.1.8_20/bin/php-cgi" php_cli="/usr/local/Cellar/php71/7.1.8_20/bin/php" path_separator=":" version="7.1.8">
-          <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-gmp.ini, /usr/local/etc/php/7.1/conf.d/ext-igbinary.ini, /usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-intl.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-memcached.ini, /usr/local/etc/php/7.1/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini</additional_php_ini>
+        <phpinfo binary_type="PHP" php_cgi="/usr/local/Cellar/php@7.1/7.1.8_20/bin/php-cgi" php_cli="/usr/local/Cellar/php@7.1/7.1.8_20/bin/php" path_separator=":" version="7.1.8">
+          <additional_php_ini>/usr/local/etc/php/7.1/conf.d/ext-gmp.ini, /usr/local/etc/php/7.1/conf.d/ext-igbinary.ini, /usr/local/etc/php/7.1/conf.d/ext-imagick.ini, /usr/local/etc/php/7.1/conf.d/ext-intl.ini, /usr/local/etc/php/7.1/conf.d/ext-mcrypt.ini, /usr/local/etc/php/7.1/conf.d/ext-memcached.ini, /usr/local/etc/php/7.1/conf.d/ext-mongodb.ini, /usr/local/etc/php/7.1/conf.d/ext-redis.ini, /usr/local/etc/php/7.1/conf.d/ext-xdebug.ini</additional_php_ini>
           <configuration_file>/usr/local/etc/php/7.1/php.ini</configuration_file>
           <configuration_options>
             <configuration_option name="SMTP" value="localhost" />
@@ -542,9 +542,6 @@
             <configuration_option name="include_path" value=".:" />
             <configuration_option name="input_encoding" value="" />
             <configuration_option name="internal_encoding" value="" />
-            <configuration_option name="intl.default_locale" value="" />
-            <configuration_option name="intl.error_level" value="0" />
-            <configuration_option name="intl.use_exceptions" value="0" />
             <configuration_option name="ldap.max_links" value="-1" />
             <configuration_option name="log_errors" value="1" />
             <configuration_option name="log_errors_max_len" value="1024" />
@@ -645,6 +642,15 @@
             <configuration_option name="precision" value="14" />
             <configuration_option name="realpath_cache_size" value="4096K" />
             <configuration_option name="realpath_cache_ttl" value="120" />
+            <configuration_option name="redis.arrays.autorehash" value="" />
+            <configuration_option name="redis.arrays.functions" value="" />
+            <configuration_option name="redis.arrays.hosts" value="" />
+            <configuration_option name="redis.arrays.index" value="" />
+            <configuration_option name="redis.arrays.names" value="" />
+            <configuration_option name="redis.arrays.previous" value="" />
+            <configuration_option name="redis.clusters.read_timeout" value="" />
+            <configuration_option name="redis.clusters.seeds" value="" />
+            <configuration_option name="redis.clusters.timeout" value="" />
             <configuration_option name="register_argc_argv" value="1" />
             <configuration_option name="report_memleaks" value="1" />
             <configuration_option name="report_zend_debug" value="0" />
@@ -808,7 +814,6 @@
             <extension name="iconv" />
             <extension name="igbinary" />
             <extension name="imagick" />
-            <extension name="intl" />
             <extension name="json" />
             <extension name="ldap" />
             <extension name="libxml" />
@@ -826,6 +831,7 @@
             <extension name="pdo_sqlite" />
             <extension name="posix" />
             <extension name="readline" />
+            <extension name="redis" />
             <extension name="session" />
             <extension name="shmop" />
             <extension name="soap" />
