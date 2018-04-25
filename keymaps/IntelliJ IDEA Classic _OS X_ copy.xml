@@ -30,6 +30,9 @@
   <action id="Git.Commit.And.Push.Executor">
     <keyboard-shortcut first-keystroke="alt p" />
   </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="Images.Editor.ActualSize">
     <keyboard-shortcut first-keystroke="meta divide" />
   </action>
