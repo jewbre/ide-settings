@@ -16,6 +16,7 @@
       <mapping pattern="_prompt" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="BaseController" type="PLAIN_TEXT" />
+      <mapping pattern="REWRITE-RULES" type="PLAIN_TEXT" />
       <mapping pattern="code2" type="PLAIN_TEXT" />
       <mapping pattern="script" type="PLAIN_TEXT" />
       <mapping pattern=".htacces" type="PLAIN_TEXT" />
