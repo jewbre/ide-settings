@@ -9,19 +9,20 @@
       <mapping pattern="yii" type="PHP" />
       <mapping pattern="PdfCreator" type="PLAIN_TEXT" />
       <mapping pattern="index" type="PLAIN_TEXT" />
+      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="ENVIRONMENTS" type="PLAIN_TEXT" />
       <mapping pattern="codes" type="PLAIN_TEXT" />
       <mapping pattern="data2" type="PLAIN_TEXT" />
       <mapping pattern="_prompt" type="PLAIN_TEXT" />
-      <mapping pattern=".htacces" type="PLAIN_TEXT" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="BaseController" type="PLAIN_TEXT" />
       <mapping pattern="REWRITE-RULES" type="PLAIN_TEXT" />
       <mapping pattern="code2" type="PLAIN_TEXT" />
       <mapping pattern="script" type="PLAIN_TEXT" />
-      <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern=".htacces" type="PLAIN_TEXT" />
       <mapping pattern="just somethig" type="PLAIN_TEXT" />
       <mapping pattern="CLRZ" type="PLAIN_TEXT" />
+      <mapping pattern="UploadForm" type="PLAIN_TEXT" />
       <mapping ext="ttf" type="PLAIN_TEXT" />
       <mapping ext="mmdb" type="PLAIN_TEXT" />
       <mapping ext="postman_collection" type="PLAIN_TEXT" />
