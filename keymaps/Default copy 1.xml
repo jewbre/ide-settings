@@ -14,4 +14,7 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="PhpListenDebugAction">
+    <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
 </keymap>
