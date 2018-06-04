@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="PHP CS Fixer" description="Fixer for codestyle" showInMainMenu="true" showInEditor="true" showInProject="true" showInSearchPopup="true" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/work/libraries/php-cs-fixer-v2.phar" />
+      <option name="PARAMETERS" value="fix --config=/Users/vilimstubican/work/njuskalo/src/.php_cs.dist --verbose &quot;$FileDir$/$FileName$&quot;" />
+      <option name="WORKING_DIRECTORY" value="$ProjectFileDir$" />
+    </exec>
+  </tool>
+</toolSet>

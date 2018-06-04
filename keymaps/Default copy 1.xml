@@ -17,7 +17,13 @@
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="Git.CompareWithBranch">
+    <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="Tool_External Tools_PHP CS Fixer">
+    <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
 </keymap>
