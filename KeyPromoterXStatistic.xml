@@ -9,12 +9,36 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Open Command Dialog">
+        <Item>
+          <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
+          <ShortCut>'⇧⌘Y'</ShortCut>
+          <Description>Open Command Dialog</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Open Task...">
+        <Item>
+          <IdeaActionID>tasks.goto</IdeaActionID>
+          <ShortCut>'⌥⇧N'</ShortCut>
+          <Description>Open Task...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Rerun 'Docker'">
         <Item>
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Docker'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Time Tracking">
+        <Item>
+          <IdeaActionID>ActivateTimeTrackingToolWindow</IdeaActionID>
+          <ShortCut>'⌘8'</ShortCut>
+          <Description>Time Tracking</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
