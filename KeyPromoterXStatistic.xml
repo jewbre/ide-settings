@@ -9,6 +9,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Open Command Dialog">
         <Item>
           <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
@@ -22,7 +30,7 @@
           <IdeaActionID>tasks.goto</IdeaActionID>
           <ShortCut>'⌥⇧N'</ShortCut>
           <Description>Open Task...</Description>
-          <Count>3</Count>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Docker'">
