@@ -25,6 +25,7 @@
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
   <action id="FileChooser.NewFolder" />
+  <action id="FindNext" />
   <action id="Generate">
     <keyboard-shortcut first-keystroke="ctrl n" />
   </action>
@@ -37,6 +38,9 @@
   </action>
   <action id="GotoFile">
     <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="GotoLine">
+    <keyboard-shortcut first-keystroke="meta g" />
   </action>
   <action id="GotoSymbol">
     <keyboard-shortcut first-keystroke="meta alt n" />
