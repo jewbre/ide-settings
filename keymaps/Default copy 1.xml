@@ -14,14 +14,44 @@
   <action id="CloseContent">
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
+  <action id="Console.TableResult.SetNull" />
+  <action id="EditorDown">
+    <keyboard-shortcut first-keystroke="down" />
+  </action>
   <action id="EditorSelectWord">
     <keyboard-shortcut first-keystroke="meta w" />
   </action>
   <action id="EditorUnSelectWord">
     <keyboard-shortcut first-keystroke="shift meta w" />
   </action>
+  <action id="FileChooser.NewFolder" />
+  <action id="Generate">
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
   <action id="Git.CompareWithBranch">
     <keyboard-shortcut first-keystroke="ctrl meta b" />
+  </action>
+  <action id="GotoChangedFile" />
+  <action id="GotoClass">
+    <keyboard-shortcut first-keystroke="meta n" />
+  </action>
+  <action id="GotoFile">
+    <keyboard-shortcut first-keystroke="shift meta n" />
+  </action>
+  <action id="GotoSymbol">
+    <keyboard-shortcut first-keystroke="meta alt n" />
+  </action>
+  <action id="ImplementMethods">
+    <keyboard-shortcut first-keystroke="meta i" />
+  </action>
+  <action id="Inline" />
+  <action id="NewElement">
+    <keyboard-shortcut first-keystroke="ctrl enter" />
+    <keyboard-shortcut first-keystroke="ctrl n" />
+  </action>
+  <action id="NewScratchFile" />
+  <action id="OverrideMethods">
+    <keyboard-shortcut first-keystroke="meta o" />
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift meta l" />
