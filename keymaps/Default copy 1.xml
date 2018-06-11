@@ -21,6 +21,10 @@
     <keyboard-shortcut first-keystroke="shift meta y" />
   </action>
   <action id="Console.TableResult.SetNull" />
+  <action id="EditorDeleteLine">
+    <keyboard-shortcut first-keystroke="meta back_space" />
+    <keyboard-shortcut first-keystroke="meta y" />
+  </action>
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
@@ -66,6 +70,9 @@
   </action>
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="shift meta l" />
+  </action>
+  <action id="QuickImplementations">
+    <keyboard-shortcut first-keystroke="alt space" />
   </action>
   <action id="RecentProjectListGroup">
     <keyboard-shortcut first-keystroke="shift meta o" />
