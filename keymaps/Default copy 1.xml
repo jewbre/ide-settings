@@ -86,6 +86,9 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="SplitVertically">
+    <keyboard-shortcut first-keystroke="meta p" />
+  </action>
   <action id="Tool_External Tools_PHP CS Fixer">
     <keyboard-shortcut first-keystroke="shift meta i" />
   </action>
