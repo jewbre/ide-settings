@@ -9,14 +9,6 @@
           <Count>2</Count>
         </Item>
       </Statistic>
-      <Statistic Action="Declaration">
-        <Item>
-          <IdeaActionID>GotoDeclaration</IdeaActionID>
-          <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
-          <Description>Declaration</Description>
-          <Count>150</Count>
-        </Item>
-      </Statistic>
       <Statistic Action="Open Command Dialog">
         <Item>
           <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
@@ -63,6 +55,16 @@
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
           <Count>72</Count>
+        </Item>
+      </Statistic>
+    </option>
+    <option name="suppressed">
+      <Statistic Action="Declaration">
+        <Item>
+          <IdeaActionID>GotoDeclaration</IdeaActionID>
+          <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
+          <Description>Declaration</Description>
+          <Count>151</Count>
         </Item>
       </Statistic>
     </option>
