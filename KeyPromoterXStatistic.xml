@@ -25,12 +25,20 @@
           <Count>4</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Paste Simple">
+        <Item>
+          <IdeaActionID>EditorPasteSimple</IdeaActionID>
+          <ShortCut>'⌥⇧⌘V'</ShortCut>
+          <Description>Paste Simple</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Reload Page">
         <Item>
           <IdeaActionID>Console.TableResult.Reload</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Reload Page</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Rerun 'Docker'">
@@ -54,7 +62,7 @@
           <IdeaActionID>ToggleLineBreakpoint</IdeaActionID>
           <ShortCut>'⌘F8'</ShortCut>
           <Description>Toggle Line Breakpoint</Description>
-          <Count>72</Count>
+          <Count>73</Count>
         </Item>
       </Statistic>
     </option>
