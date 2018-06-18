@@ -1,6 +1,14 @@
 <application>
   <component name="KeyPromoterXStatistic">
     <option name="statistics">
+      <Statistic Action="Annotate">
+        <Item>
+          <IdeaActionID>Annotate</IdeaActionID>
+          <ShortCut>'⌃⌥A'</ShortCut>
+          <Description>Annotate</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'Docker'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
@@ -30,6 +38,14 @@
           <IdeaActionID>EditorPasteSimple</IdeaActionID>
           <ShortCut>'⌥⇧⌘V'</ShortCut>
           <Description>Paste Simple</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Push...">
+        <Item>
+          <IdeaActionID>Vcs.Push</IdeaActionID>
+          <ShortCut>'⇧⌘K'</ShortCut>
+          <Description>Push...</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
