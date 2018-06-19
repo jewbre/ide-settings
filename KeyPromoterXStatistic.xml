@@ -9,6 +9,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Cancel Query">
+        <Item>
+          <IdeaActionID>Console.TableResult.Cancel</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Cancel Query</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'Docker'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
