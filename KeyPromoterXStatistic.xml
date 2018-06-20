@@ -14,7 +14,7 @@
           <IdeaActionID>Console.TableResult.Cancel</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Cancel Query</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug 'Docker'">
