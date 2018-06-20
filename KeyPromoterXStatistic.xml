@@ -25,6 +25,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Modify Table...">
+        <Item>
+          <IdeaActionID>ModifyObject</IdeaActionID>
+          <ShortCut>'⌘F6'</ShortCut>
+          <Description>Modify Table...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Open Command Dialog">
         <Item>
           <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
