@@ -17,6 +17,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Compare with Branch...">
+        <Item>
+          <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
+          <ShortCut>'⌃⌘B'</ShortCut>
+          <Description>Compare with Branch...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Debug 'Docker'">
         <Item>
           <IdeaActionID>Debug</IdeaActionID>
