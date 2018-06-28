@@ -17,6 +17,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Commit Message History">
+        <Item>
+          <IdeaActionID>Vcs.ShowMessageHistory</IdeaActionID>
+          <ShortCut>'⌃M' or '⌘E'</ShortCut>
+          <Description>Commit Message History</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Compare with Branch...">
         <Item>
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
@@ -95,6 +103,14 @@
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'Docker'</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Show Diff">
+        <Item>
+          <IdeaActionID>Diff.ShowDiff</IdeaActionID>
+          <ShortCut>'⌘D'</ShortCut>
+          <Description>Show Diff</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Terminal">
