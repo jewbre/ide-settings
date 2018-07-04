@@ -14,5 +14,6 @@
     <mask>*.php</mask>
     <mask>index.d.ts</mask>
     <mask>*.js</mask>
+    <mask>*.yml</mask>
   </component>
 </application>
