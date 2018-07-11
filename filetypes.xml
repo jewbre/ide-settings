@@ -7,6 +7,7 @@
       <mapping pattern="blank-file" type="PLAIN_TEXT" />
       <mapping pattern="bla" type="PLAIN_TEXT" />
       <mapping pattern="test2" type="PLAIN_TEXT" />
+      <mapping pattern="blank-file-2" type="PLAIN_TEXT" />
       <mapping ext="file" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
