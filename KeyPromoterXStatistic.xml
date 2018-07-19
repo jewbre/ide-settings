@@ -193,6 +193,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Scan keys">
+        <Item>
+          <IdeaActionID>ScanKeysAction</IdeaActionID>
+          <ShortCut>'⌘⏎'</ShortCut>
+          <Description>Scan keys</Description>
+          <Count>3</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Show Diff">
         <Item>
           <IdeaActionID>Diff.ShowDiff</IdeaActionID>
