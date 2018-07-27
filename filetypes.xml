@@ -4,6 +4,7 @@
       <mapping ext="template" type="PHP" />
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="test-2" type="PLAIN_TEXT" />
+      <mapping pattern="htaccess" type="PLAIN_TEXT" />
       <mapping pattern="blank-file" type="PLAIN_TEXT" />
       <mapping pattern="bla" type="PLAIN_TEXT" />
       <mapping pattern="test2" type="PLAIN_TEXT" />
