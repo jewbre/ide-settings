@@ -153,6 +153,14 @@
           <Count>18</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Next Page">
+        <Item>
+          <IdeaActionID>Console.TableResult.NextPage</IdeaActionID>
+          <ShortCut>'⌥⌘↓'</ShortCut>
+          <Description>Next Page</Description>
+          <Count>2</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Open Command Dialog">
         <Item>
           <IdeaActionID>com.github.jk1.ytplugin.commands.OpenCommandWindowAction</IdeaActionID>
@@ -175,6 +183,14 @@
           <ShortCut>'⌥⇧⌘V'</ShortCut>
           <Description>Paste Simple</Description>
           <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Previous Page">
+        <Item>
+          <IdeaActionID>Console.TableResult.PreviousPage</IdeaActionID>
+          <ShortCut>'⌥⌘↑'</ShortCut>
+          <Description>Previous Page</Description>
+          <Count>4</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
