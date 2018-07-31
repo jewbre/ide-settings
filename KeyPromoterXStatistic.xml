@@ -25,6 +25,14 @@
           <Count>2</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Cancel Running Statements">
+        <Item>
+          <IdeaActionID>Console.Jdbc.Terminate</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Cancel Running Statements</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Columns List">
         <Item>
           <IdeaActionID>Console.TableResult.ColumnsList</IdeaActionID>
