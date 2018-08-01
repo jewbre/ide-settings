@@ -38,7 +38,7 @@
           <IdeaActionID>Console.TableResult.ColumnsList</IdeaActionID>
           <ShortCut>'⌘F12'</ShortCut>
           <Description>Columns List</Description>
-          <Count>5</Count>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Commit Message History">
