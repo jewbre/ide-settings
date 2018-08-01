@@ -294,7 +294,7 @@
           <IdeaActionID>ActivateTimeTrackingToolWindow</IdeaActionID>
           <ShortCut>'⌘8'</ShortCut>
           <Description>Time Tracking</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
     </option>
