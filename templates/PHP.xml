@@ -1,0 +1,8 @@
+<templateSet group="PHP">
+  <template name="pubft" value="/**&#10; * @test &#10; */&#10;public function test$NAME$()&#10;{&#10;    // Arrange&#10;    $END$&#10;    // Act&#10;    &#10;    // Assert&#10;}" description="public test function" toReformat="false" toShortenFQNames="true">
+    <variable name="NAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>
