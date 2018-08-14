@@ -30,7 +30,7 @@
           <IdeaActionID>Console.Jdbc.Terminate</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Cancel Running Statements</Description>
-          <Count>6</Count>
+          <Count>8</Count>
         </Item>
       </Statistic>
       <Statistic Action="Columns List">
