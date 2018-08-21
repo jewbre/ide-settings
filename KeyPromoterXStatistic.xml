@@ -113,6 +113,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Find Usages">
+        <Item>
+          <IdeaActionID>FindUsages</IdeaActionID>
+          <ShortCut>'⌥F7'</ShortCut>
+          <Description>Find Usages</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Generate DDL to Clipboard">
         <Item>
           <IdeaActionID>DatabaseView.CopyDdlAction</IdeaActionID>
@@ -279,6 +287,14 @@
           <ShortCut>'⌘⏎'</ShortCut>
           <Description>Scan keys</Description>
           <Count>3</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Show Diagram...">
+        <Item>
+          <IdeaActionID>ShowUmlDiagram</IdeaActionID>
+          <ShortCut>'⌥⇧⌘U'</ShortCut>
+          <Description>Show Diagram...</Description>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diff">
