@@ -33,6 +33,14 @@
           <Count>12</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Change Signature...">
+        <Item>
+          <IdeaActionID>ChangeSignature</IdeaActionID>
+          <ShortCut>'⌘F6'</ShortCut>
+          <Description>Change Signature...</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Columns List">
         <Item>
           <IdeaActionID>Console.TableResult.ColumnsList</IdeaActionID>
