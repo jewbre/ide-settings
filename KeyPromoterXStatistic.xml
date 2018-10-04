@@ -369,6 +369,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Start Listening for PHP Debug Connections">
+        <Item>
+          <IdeaActionID>PhpListenDebugAction</IdeaActionID>
+          <ShortCut>'⇧⌘L'</ShortCut>
+          <Description>Start Listening for PHP Debug Connections</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'default'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
@@ -390,7 +398,7 @@
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
           <ShortCut>'⇧⌘L'</ShortCut>
           <Description>Stop Listening for PHP Debug Connections</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
