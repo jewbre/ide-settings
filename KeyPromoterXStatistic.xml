@@ -398,7 +398,7 @@
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
           <ShortCut>'⇧⌘L'</ShortCut>
           <Description>Stop Listening for PHP Debug Connections</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Synchronize">
