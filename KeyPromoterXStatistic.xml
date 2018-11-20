@@ -382,7 +382,7 @@
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
           <ShortCut>'⇧⌘L'</ShortCut>
           <Description>Start Listening for PHP Debug Connections</Description>
-          <Count>1</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Stop 'default'">
@@ -398,14 +398,6 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'index.php'</Description>
-          <Count>5</Count>
-        </Item>
-      </Statistic>
-      <Statistic Action="Stop Listening for PHP Debug Connections">
-        <Item>
-          <IdeaActionID>PhpListenDebugAction</IdeaActionID>
-          <ShortCut>'⇧⌘L'</ShortCut>
-          <Description>Stop Listening for PHP Debug Connections</Description>
           <Count>5</Count>
         </Item>
       </Statistic>
@@ -449,6 +441,14 @@
           <ShortCut>'⌘B' or '⌘Button1 Click' or 'Button2 Click'</ShortCut>
           <Description>Declaration</Description>
           <Count>151</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Stop Listening for PHP Debug Connections">
+        <Item>
+          <IdeaActionID>PhpListenDebugAction</IdeaActionID>
+          <ShortCut>'⇧⌘L'</ShortCut>
+          <Description>Stop Listening for PHP Debug Connections</Description>
+          <Count>6</Count>
         </Item>
       </Statistic>
       <Statistic Action="Toggle Line Breakpoint">
