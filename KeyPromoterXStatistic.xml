@@ -62,7 +62,7 @@
           <IdeaActionID>Git.CompareWithBranch</IdeaActionID>
           <ShortCut>'⌃⌘B'</ShortCut>
           <Description>Compare with Branch...</Description>
-          <Count>25</Count>
+          <Count>26</Count>
         </Item>
       </Statistic>
       <Statistic Action="Copy">
