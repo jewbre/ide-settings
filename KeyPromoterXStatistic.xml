@@ -270,7 +270,7 @@
           <IdeaActionID>Vcs.Log.Refresh</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Refresh</Description>
-          <Count>2</Count>
+          <Count>3</Count>
         </Item>
       </Statistic>
       <Statistic Action="Reload Page">
