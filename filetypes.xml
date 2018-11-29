@@ -15,6 +15,7 @@
       <mapping pattern="Resource" type="PLAIN_TEXT" />
       <mapping pattern="xiti-remarketing-script" type="PLAIN_TEXT" />
       <mapping ext="file" type="PLAIN_TEXT" />
+      <mapping ext="dist" type="PLAIN_TEXT" />
       <mapping ext="lua" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
