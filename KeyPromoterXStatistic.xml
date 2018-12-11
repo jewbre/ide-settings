@@ -459,6 +459,12 @@
           <Count>151</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Show editor only">
+        <Item>
+          <IdeaActionID>org.intellij.plugins.markdown.ui.actions.editorLayout.EditorOnlyLayoutChangeAction</IdeaActionID>
+          <Description>Show editor only</Description>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop Listening for PHP Debug Connections">
         <Item>
           <IdeaActionID>PhpListenDebugAction</IdeaActionID>
