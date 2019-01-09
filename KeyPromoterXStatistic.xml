@@ -182,7 +182,7 @@
           <IdeaActionID>ActivateGulpToolWindow</IdeaActionID>
           <ShortCut>'⇧⌘G'</ShortCut>
           <Description>Gulp</Description>
-          <Count>10</Count>
+          <Count>11</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hide All Windows">
@@ -334,6 +334,14 @@
           <IdeaActionID>Rerun</IdeaActionID>
           <ShortCut>'⌘R'</ShortCut>
           <Description>Rerun 'default'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Rerun 'sass'">
+        <Item>
+          <IdeaActionID>Rerun</IdeaActionID>
+          <ShortCut>'⌘R'</ShortCut>
+          <Description>Rerun 'sass'</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
