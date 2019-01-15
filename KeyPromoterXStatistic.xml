@@ -238,7 +238,7 @@
           <IdeaActionID>Console.TableResult.NextPage</IdeaActionID>
           <ShortCut>'⌥⌘↓'</ShortCut>
           <Description>Next Page</Description>
-          <Count>30</Count>
+          <Count>35</Count>
         </Item>
       </Statistic>
       <Statistic Action="Open Command Dialog">
