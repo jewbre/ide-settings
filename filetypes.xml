@@ -4,6 +4,7 @@
       <mapping ext="side" type="JSON" />
       <mapping ext="template" type="PHP" />
       <mapping ext="view" type="PHP" />
+      <mapping pattern="blank-file-2" type="PLAIN_TEXT" />
       <mapping pattern="blank-file" type="PLAIN_TEXT" />
       <mapping pattern="test-2" type="PLAIN_TEXT" />
       <mapping pattern="htaccess" type="PLAIN_TEXT" />
@@ -11,9 +12,9 @@
       <mapping pattern="test" type="PLAIN_TEXT" />
       <mapping pattern="bla" type="PLAIN_TEXT" />
       <mapping pattern="test2" type="PLAIN_TEXT" />
-      <mapping pattern="Resource" type="PLAIN_TEXT" />
+      <mapping pattern=".local-gitignore" type="PLAIN_TEXT" />
       <mapping pattern="asdlkfj" type="PLAIN_TEXT" />
-      <mapping pattern="blank-file-2" type="PLAIN_TEXT" />
+      <mapping pattern="Resource" type="PLAIN_TEXT" />
       <mapping pattern="xiti-remarketing-script" type="PLAIN_TEXT" />
       <mapping ext="file" type="PLAIN_TEXT" />
       <mapping ext="dist" type="PLAIN_TEXT" />
