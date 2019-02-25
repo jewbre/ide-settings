@@ -15,9 +15,9 @@
     <mask>*.js</mask>
     <mask>*controller.php</mask>
     <mask>*.scss</mask>
-    <mask>*.php</mask>
     <mask>*1500*.yml</mask>
     <mask>*.yml</mask>
     <mask>*test.php</mask>
+    <mask>*.php</mask>
   </component>
 </application>
