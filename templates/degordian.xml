@@ -151,4 +151,11 @@
       <option name="TypeScript" value="true" />
     </context>
   </template>
+  <template name="rclass" value="class $CLASSNAME$ extends React.Component {&#10;    render() {&#10;        return &lt;$ROOT_ELEMENT$&gt;&#10;            $END$&#10;        &lt;/$ROOT_ELEMENT$&gt;&#10;    }&#10;}" description="React Class" toReformat="false" toShortenFQNames="true">
+    <variable name="CLASSNAME" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="ROOT_ELEMENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
 </templateSet>
