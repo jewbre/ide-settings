@@ -153,6 +153,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Drop">
+        <Item>
+          <IdeaActionID>$Delete</IdeaActionID>
+          <ShortCut>'⌦' or '⌫' or '⌘⌫'</ShortCut>
+          <Description>Drop</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Duplicate">
         <Item>
           <IdeaActionID>DatabaseView.CopyAction</IdeaActionID>
@@ -190,7 +198,7 @@
           <IdeaActionID>FindUsages</IdeaActionID>
           <ShortCut>'⌥F7'</ShortCut>
           <Description>Find Usages</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Generate DDL to Clipboard">
