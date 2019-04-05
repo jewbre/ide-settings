@@ -222,7 +222,7 @@
           <IdeaActionID>HideAllWindows</IdeaActionID>
           <ShortCut>'⇧⌘F12'</ShortCut>
           <Description>Hide All Windows</Description>
-          <Count>22</Count>
+          <Count>23</Count>
         </Item>
       </Statistic>
       <Statistic Action="Hierarchy">
@@ -311,6 +311,14 @@
           <ShortCut>'⌥⌘↑'</ShortCut>
           <Description>Previous Page</Description>
           <Count>4</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Project">
+        <Item>
+          <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
+          <ShortCut>'⌘1'</ShortCut>
+          <Description>Project</Description>
+          <Count>1</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
