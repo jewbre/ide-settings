@@ -118,7 +118,7 @@
           <IdeaActionID>ActivateDatabaseToolWindow</IdeaActionID>
           <ShortCut>'⌘0'</ShortCut>
           <Description>Database</Description>
-          <Count>5</Count>
+          <Count>25</Count>
         </Item>
       </Statistic>
       <Statistic Action="Debug">
@@ -318,7 +318,7 @@
           <IdeaActionID>ActivateProjectToolWindow</IdeaActionID>
           <ShortCut>'⌘1'</ShortCut>
           <Description>Project</Description>
-          <Count>1</Count>
+          <Count>2</Count>
         </Item>
       </Statistic>
       <Statistic Action="Properties">
@@ -454,7 +454,7 @@
           <IdeaActionID>ShowUmlDiagramPopup</IdeaActionID>
           <ShortCut>'⌥⌘U'</ShortCut>
           <Description>Show Diagram Popup...</Description>
-          <Count>4</Count>
+          <Count>5</Count>
         </Item>
       </Statistic>
       <Statistic Action="Show Diagram...">
@@ -534,6 +534,14 @@
           <IdeaActionID>Stop</IdeaActionID>
           <ShortCut>'⌘F2'</ShortCut>
           <Description>Stop 'watch'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
+      <Statistic Action="Structure">
+        <Item>
+          <IdeaActionID>ActivateStructureToolWindow</IdeaActionID>
+          <ShortCut>'⌘7'</ShortCut>
+          <Description>Structure</Description>
           <Count>1</Count>
         </Item>
       </Statistic>
