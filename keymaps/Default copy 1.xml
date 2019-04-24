@@ -86,6 +86,9 @@
   <action id="ReplaceInPath">
     <keyboard-shortcut first-keystroke="shift ctrl r" />
   </action>
+  <action id="SplitHorizontally">
+    <keyboard-shortcut first-keystroke="meta h" />
+  </action>
   <action id="SplitVertically">
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
