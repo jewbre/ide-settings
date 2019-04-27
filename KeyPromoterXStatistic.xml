@@ -521,6 +521,14 @@
           <Count>3</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Stop 'http://localhost:80/app_dev.php/base-model/2/modification'">
+        <Item>
+          <IdeaActionID>Stop</IdeaActionID>
+          <ShortCut>'⌘F2'</ShortCut>
+          <Description>Stop 'http://localhost:80/app_dev.php/base-model/2/modification'</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Stop 'index.php'">
         <Item>
           <IdeaActionID>Stop</IdeaActionID>
