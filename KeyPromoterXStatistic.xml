@@ -49,6 +49,14 @@
           <Count>1</Count>
         </Item>
       </Statistic>
+      <Statistic Action="Close">
+        <Item>
+          <IdeaActionID>CloseContent</IdeaActionID>
+          <ShortCut>'⇧⌘Y'</ShortCut>
+          <Description>Close</Description>
+          <Count>1</Count>
+        </Item>
+      </Statistic>
       <Statistic Action="Columns List">
         <Item>
           <IdeaActionID>Console.TableResult.ColumnsList</IdeaActionID>
