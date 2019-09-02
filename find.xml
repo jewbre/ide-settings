@@ -14,7 +14,6 @@
     <mask>index.d.ts</mask>
     <mask>*controller.php</mask>
     <mask>*1500*.yml</mask>
-    <mask>*test.php</mask>
     <mask>*Command.php</mask>
     <mask>*.twig</mask>
     <mask>*.scss</mask>
@@ -23,5 +22,6 @@
     <mask>*.js</mask>
     <mask>*.yml</mask>
     <mask>*.po</mask>
+    <mask>*test.php</mask>
   </component>
 </application>
