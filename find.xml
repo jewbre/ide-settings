@@ -17,11 +17,12 @@
     <mask>*Command.php</mask>
     <mask>*.twig</mask>
     <mask>*.scss</mask>
-    <mask>*.php</mask>
     <mask>*Controller.php</mask>
     <mask>*.js</mask>
     <mask>*.yml</mask>
     <mask>*.po</mask>
     <mask>*test.php</mask>
+    <mask>*.php</mask>
+    <mask>*Test.php</mask>
   </component>
 </application>
